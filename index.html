@@ -1,0 +1,23 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cronômetro</h1>
+        <p id="timer">00:00:00</p>
+        <div class="buttons">
+            <button onclick="startTimer()">Iniciar</button>
+            <button onclick="pauseTimer()">Pausar</button>
+            <button onclick="resetTimer()">Resetar</button>
+            <button onclick="markLap()">Marcar Volta</button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
